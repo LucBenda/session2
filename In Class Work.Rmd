@@ -1,0 +1,36 @@
+---
+title: "Assignment 2"
+author: "Luc"
+date: "Wednesday, May 18, 2016"
+output: html_document
+---
+
+
+Task 1
+```{r}
+library(ggplot2)
+library(dplyr)
+mpg %>% tbl_df
+
+g <- ggplot(mpg, aes(x= displ, y=hwy, colour=trans))+
+  geom_point() 
+
+print(g)
+
+```
+
+
+Task 2
+```{r}
+
+g <- ggplot(mpg, aes(x= displ, y=hwy))+
+  geom_point() +
+  geom_smooth()
+
+print(g)
+
+```
+
+
+
+
