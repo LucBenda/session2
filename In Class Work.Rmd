@@ -31,7 +31,6 @@ print(g)
 
 ```
 
-<<<<<<< HEAD
 Task 3
 ```{r}
 
@@ -54,8 +53,7 @@ g <- ggplot(mpg, aes(x= displ, y=hwy, colour=(factor(cyl))))+
 print(g)
 
 ```
-=======
->>>>>>> c2f5396c206855ea31c9b396f532d84fe3d49ead
+
 
 
 
